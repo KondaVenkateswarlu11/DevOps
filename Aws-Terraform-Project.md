@@ -9,7 +9,7 @@
   - One private subnet
 
 ## Enable Public IP on Launch
-- Enable public IP on launch for instances.
+- Enable auto-assign public IPv4 address.
 
 ## Create Networking Components
 - Create a NAT Gateway in the public subnet.
