@@ -12,7 +12,7 @@
 - Enable auto-assign public IPv4 address.
 
 ## Create Networking Components
-- Create a NAT Gateway in the public subnet.
+
 - Create an Internet Gateway and attach it to the VPC.
 
 ## Configure Public Subnet
@@ -22,6 +22,7 @@
 
 ## Configure Private Subnet
 - Use the route table created during VPC creation.
+- Create a NAT Gateway in the public subnet.
 - In the route section of the VPC route table, add the NAT Gateway.
 - In the subnet association section, add the private subnet.
 
