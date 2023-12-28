@@ -21,8 +21,9 @@
 - In the subnet association section, add the public subnet.
 
 ## Configure Private Subnet
-- Use the route table created during VPC creation.
 - Create a NAT Gateway in the public subnet.
+
+- Use the route table created during VPC creation.
 - In the route section of the VPC route table, add the NAT Gateway.
 - In the subnet association section, add the private subnet.
 
