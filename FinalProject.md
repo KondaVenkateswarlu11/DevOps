@@ -23,7 +23,7 @@ Here are some key points
         - Second one for Jenkins_Master
         - Third One for Jenkins_Slave
 
-##### Ansible_Server Setup
+### Ansible_Server Setup
 * Ansible Installation in the Ansible Server will be done through terraform script itself.
 * Create a hosts file in Ansible Server and add the private ips and the variables the machines in the same file like below:
 
@@ -52,7 +52,7 @@ Here are some key points
 
 *with this video 66 coved as part of the final project*
 
-##### Jenkins_Master Setup
+### Jenkins_Master Setup
 **create an ansible playbook to install jenkins on Jenkins_Master**
 * 1-jenkins-master-setup.yaml.
 ```bash
